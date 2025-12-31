@@ -1,0 +1,21 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.cardMain {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 12px;
+}
+.singleCard {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  border: 1px solid red;
+  background-color: grey;
+}
+
+.singleCard.yellow {
+  /* background-color: yellow; */
+}
